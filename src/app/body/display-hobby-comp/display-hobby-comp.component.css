@@ -13,3 +13,6 @@ tr{
     padding:2px;
     margin-left: 20px;
 }
+.display-hobby{
+    min-height: 100vh;
+}

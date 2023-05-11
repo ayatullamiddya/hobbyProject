@@ -10,6 +10,7 @@ import { ErrorCompComponent } from './error/error-comp/error-comp.component';
 import { RouterModule } from '@angular/router';
 import { HobbyServiceService } from './myservice/hobby-service.service';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms';
     HeaderCompComponent,
     AddHobbyCompComponent,
     DisplayHobbyCompComponent,
-    ErrorCompComponent
+    ErrorCompComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

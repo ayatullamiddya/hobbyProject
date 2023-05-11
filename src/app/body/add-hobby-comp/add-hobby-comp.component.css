@@ -4,3 +4,6 @@
     color: green;
     position: relative;
 }
+.add-hobby{
+    min-height: 100vh;
+}
