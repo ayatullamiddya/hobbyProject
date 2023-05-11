@@ -1,0 +1,15 @@
+td{
+    padding:5px;
+    color:green;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+}
+tr{
+    padding:2px;
+    margin-left: 20px;
+}

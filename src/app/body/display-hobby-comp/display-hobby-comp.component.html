@@ -1,0 +1,14 @@
+<div>
+    <h1>Welcome to Hobby Display</h1>
+</div>
+<div>
+  <h1 *ngIf = "HobbyArray.length == 0" [class]="'text-danger fs-3 text-center  border-bottom'">No Hobbies</h1>
+</div>
+<div class="container container-fluid p-2 m-1" >
+  <table class="table table-bordered">
+    <tr *ngFor = "let item of HobbyArray  " >
+        
+         <td>{{item}} </td><button class="btn btn-danger btn-sm  border-rounded" (click)="delete(item)">delete</button>
+    </tr>
+  </table>
+</div>
