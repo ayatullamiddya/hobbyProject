@@ -28,8 +28,8 @@ import { FooterComponent } from './footer/footer.component';
     FormsModule,
     RouterModule.forRoot([
       {
-        path:'',
-        component:AddHobbyCompComponent
+        path:'', redirectTo:'add' ,pathMatch:'full'
+        
       },
       {
         path:'add',

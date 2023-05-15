@@ -1,0 +1,11 @@
+ /* .nav-link:hover{
+background-color: rgb(232, 126, 76);
+
+}  */
+.nav-item :hover{
+    background-color: rgb(232, 76, 133);
+   
+} 
+.active{
+    background-color: rgb(76, 89, 232);
+}

@@ -1,17 +1,32 @@
 <div class="add-hobby">
-<div>
-  <P class="success">{{added}}</P>
-</div>
-<div class="container container-fluid p-5 m-5 bg-primary">
-  <div class="form-group">
+  
+<div class="container-fluid ">
+  <div class="p-5 mt-5 bg-primary">
+    <div class="form-group">
       <div>
           <label for="hobby" class="fs-3" >Enter your hobby</label>
           <input type="text" class="form-control" id="inputValue1" [value]="inputValue1" [(ngModel)]="inputValue1" autocomplete="off" /><span *ngIf="isBlank" [class]="'text-danger'">Please fill the box</span>
       </div>
      <br>
-        <button class="btn btn-secondary p-2 m-1" (click)="addHobby()">Add</button>
-   
+        <button class="btn btn-secondary p-2 m-1" id="button" (click)="addHobby()">Add</button>
+  </div>
+  </div>
+</div>
 
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-body text-center">
+      hobby is added.
+      </div>
+     
+    </div>
   </div>
 </div>
 </div>
