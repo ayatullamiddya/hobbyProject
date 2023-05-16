@@ -1,5 +1,5 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-secondary">
-  <button type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" class="navbar-toggler" >
+  <button type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" id="navbarbutton" class="navbar-toggler" >
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-end me-2" id="mynavbar">
@@ -8,10 +8,10 @@
       
         <ul class="navbar-nav ml-auto">
         <li class="nav-item me-2">
-            <a routerLink="add" routerLinkActive="active"  class="nav-link ">Add Hobby</a>
+            <a routerLink="add" routerLinkActive="active"  class="nav-link " (click)="remove()">Add Hobby</a>
           </li>
           <li class="nav-item me-2">
-            <a routerLink="display-hobby" routerLinkActive="active"  class="nav-link ">Display Hobby</a>
+            <a routerLink="display-hobby" routerLinkActive="active"  class="nav-link " (click)="remove()">Display Hobby</a>
           </li>
         </ul>
       </div>
